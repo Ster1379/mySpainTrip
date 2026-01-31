@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Costa Del Sol | Mediterranean Escape</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    <style>
+        /* Mediterranean Color Palette */
+        :root {
+            --deep-ocean: #005b96;
+            --azure: #00a8cc;
+            --sand: #f4f1ea;
+            --white: #ffffff;
+        }
+
+        body {
+            background-color: var(--white);
+            color: #333;
+        }
+
+        /* Custom Navbar Styling */
+        .navbar {
+            background-color: var(--deep-ocean) !important;
+        }
+
+        /* Hero Section Styling */
+        .hero-section {
+            padding: 80px 0;
+            background: linear-gradient(180deg, var(--sand) 0%, #ffffff 100%);
+            border-bottom: 5px solid var(--azure);
+        }
+
+         .p-4.rounded.shadow-sm p {
+            margin-bottom: 0.2rem; 
+        }
+
+        .profile-img {
+            max-width: 180px;
+            border: 4px solid var(--white);
+            box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+            border-radius: 50%;
+            margin-bottom: 25px;
+        }
+
+        /* Themed Buttons */
+        .btn-med {
+            background-color: var(--azure);
+            color: white;
+            border: none;
+            transition: background-color 0.3s ease;
+        }
+
+        .btn-med:hover {
+            background-color: var(--deep-ocean);
+            color: white;
+        }
+
+        h1, h3 {
+            color: var(--deep-ocean);
+        }
+    </style>
+</head>
+<body>
+
+    <nav class="navbar navbar-expand-lg navbar-dark shadow-sm">
+        <div class="container">
+            <a class="navbar-brand fw-bold" href="#">Emergency Notes</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item"><a class="nav-link px-3" href="activities.html">Activities</a></li>
+                    <li class="nav-item"><a class="nav-link px-3" href="index.html">Home</a></li>
+                    <li class="nav-item"><a class="nav-link px-3" href="notes.html">Notes</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    
+
+    <main class="container my-5">
+        <div class="row g-4 text-center">
+            <div class="col-md-4">
+                <div class="p-4 rounded shadow-sm border-top border-4 border-info">
+                    <h3>Manulife</h3>
+                    <p>1 (519) 251-7821</p>
+                    <p>collect to Canada where available</p>
+                    <p><a href="Manulife Policy.pdf" target="_blank" rel="noopener noreferrer">View Manulife Policy</a></p>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="p-4 rounded shadow-sm border-top border-4 border-info">
+                    <h3>Senior Discovery Tours Emergency Contact</h3>
+                    <p>Business hours: 1-800-268-3492</p>
+                    <p>Outside of business hours, call 1-833-886-1500 for emergency assistance.</p>
+                    
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="p-4 rounded shadow-sm border-top border-4 border-info">
+                    <h3>Canada Travel and Tourism</h3>
+                    <p><a href="https://travel.gc.ca" target="_blank" rel="noopener noreferrer">Visit Canada Travel and Tourism</a></p>
+                    
+                </div>
+            </div>
+        </div>
+        
+    </main>
+
+    <footer class="text-center py-5 bg-light mt-5">
+        <p class="mb-0 text-muted">&copy; 2026 Costa Del Sol Travel | Designed by Bob Streeter</p>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>

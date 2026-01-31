@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Costa Del Sol | Mediterranean Escape</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    <style>
+        /* Mediterranean Color Palette */
+        :root {
+            --deep-ocean: #005b96;
+            --azure: #00a8cc;
+            --sand: #f4f1ea;
+            --white: #ffffff;
+        }
+
+        body {
+            background-color: var(--white);
+            color: #333;
+        }
+
+        /* Custom Navbar Styling */
+        .navbar {
+            background-color: var(--deep-ocean) !important;
+        }
+
+        /* Hero Section Styling */
+        .hero-section {
+            padding: 80px 0;
+            background: linear-gradient(180deg, var(--sand) 0%, #ffffff 100%);
+            border-bottom: 5px solid var(--azure);
+        }
+
+        .profile-img {
+            max-width: 180px;
+            border: 4px solid var(--white);
+            box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+            border-radius: 50%;
+            margin-bottom: 25px;
+        }
+
+        /* Themed Buttons */
+        .btn-med {
+            background-color: var(--azure);
+            color: white;
+            border: none;
+            transition: background-color 0.3s ease;
+        }
+
+        .btn-med:hover {
+            background-color: var(--deep-ocean);
+            color: white;
+        }
+
+        h1, h3 {
+            color: var(--deep-ocean);
+        }
+    </style>
+</head>
+<body>
+
+    <nav class="navbar navbar-expand-lg navbar-dark shadow-sm">
+        <div class="container">
+            <a class="navbar-brand fw-bold" href="#">My Trip Info</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item"><a class="nav-link px-3" href="activities.html">Activities</a></li>
+                    <li class="nav-item"><a class="nav-link px-3" href="notes.html">Notes</a></li>
+                    <li class="nav-item"><a class="nav-link px-3" href="assistance.html">Emergency</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <header class="hero-section text-center">
+        <div class="container">
+            <img src="costa_logo.png" alt="Costa Del Sol Logo" class="profile-img">
+            
+            <p class="lead text-secondary">February 14 - March 15, 2026.</p>
+        </div>
+    </header>
+
+    <main class="container my-5">
+        <div class="row g-4 text-center">
+            <div class="col-md-4">
+                <div class="p-4 rounded shadow-sm border-top border-4 border-info">
+                    <h3>Daily Activies</h3>
+                    <p>Click the button below to explore the daily activities for each day of our trip.</p>
+                    <a href="activities.html" class="btn btn-med mt-2">Explore Activites</a>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="p-4 rounded shadow-sm border-top border-4 border-info">
+                    <h3>Trip Notes</h3>
+                    <p>Click the button below to view various notes for our trip.</p>
+                    <a href="notes.html" class="btn btn-med mt-2">View Notes</a>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="p-4 rounded shadow-sm border-top border-4 border-info">
+                    <h3>Emergency Notes</h3>
+                    <p>Click the button below to view medical notes.</p>
+                    <a href="assistance.html" class="btn btn-med mt-2">View Emergency Notes</a>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <footer class="text-center py-5 bg-light mt-5">
+        <p class="mb-0 text-muted">&copy; 2026 Costa Del Sol Travel | Designed by Bob Streeter</p>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>

@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Costa Del Sol | Mediterranean Escape</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    <style>
+        /* Mediterranean Color Palette */
+        :root {
+            --deep-ocean: #005b96;
+            --azure: #00a8cc;
+            --sand: #f4f1ea;
+            --white: #ffffff;
+        }
+
+        body {
+            background-color: var(--white);
+            color: #333;
+        }
+
+        /* Custom Navbar Styling */
+        .navbar {
+            background-color: var(--deep-ocean) !important;
+        }
+
+        /* Hero Section Styling */
+        .hero-section {
+            padding: 80px 0;
+            background: linear-gradient(180deg, var(--sand) 0%, #ffffff 100%);
+            border-bottom: 5px solid var(--azure);
+        }
+
+        .p-4.rounded.shadow-sm p {
+            margin-bottom: 0.2rem; 
+        }
+
+        .profile-img {
+            max-width: 180px;
+            border: 4px solid var(--white);
+            box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+            border-radius: 50%;
+            margin-bottom: 25px;
+        }
+
+        /* Themed Buttons */
+        .btn-med {
+            background-color: var(--azure);
+            color: white;
+            border: none;
+            transition: background-color 0.3s ease;
+        }
+
+        .btn-med:hover {
+            background-color: var(--deep-ocean);
+            color: white;
+        }
+
+        h1, h3 {
+            color: var(--deep-ocean);
+        }
+    </style>
+</head>
+<body>
+
+    <nav class="navbar navbar-expand-lg navbar-dark shadow-sm">
+        <div class="container">
+            <a class="navbar-brand fw-bold" href="#">My Trip Info</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item"><a class="nav-link px-3" href="activities.html">Activities</a></li>
+                    <li class="nav-item"><a class="nav-link px-3" href="index.html">Home</a></li>
+                    <li class="nav-item"><a class="nav-link px-3" href="assistance.html">Emergency</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    
+
+    <main class="container my-5">
+        <div class="row g-4 text-center">
+            <div class="col-md-4">
+                <div class="p-4 rounded shadow-sm border-top border-4 border-info">
+                    <h3>Tour Manager</h3>
+                    <p>Warwick Driscoll.</p>
+                    <p>warwickdriscoll@gmail.com</p>
+                    <p>1-604-970-6642</p>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="p-4 rounded shadow-sm border-top border-4 border-info">
+                    <h3>Airport Transportation Services</h3>
+                    <p>Aerofleet Limousine</p>
+                    <p>1-800-268-0905</p>
+                    
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="p-4 rounded shadow-sm border-top border-4 border-info">
+                    <h3>Accommodations</h3>
+                    <p><a href="https://maps.app.goo.gl/kfL3TaeWdUEr4JbB6" target="_blank" rel="noopener noreferrer">
+    Ocean House Costa del Sol</a></p>
+                    <p>Salvador Allende, 45p></p>
+                    <p>29620 Torremolinos, Málaga, Spain</p>
+                    <p>Phone: 011 34 952 38 70 66</p>
+                </div>
+            </div>
+        </div>
+        <div class="row g-4 text-center">
+            <div class="col-md-4">
+                <div class="p-4 rounded shadow-sm border-top border-4 border-info">
+                    <h3>Departure</h3>
+                    <p>TAP #258 departs Toronto(T1)</p>
+                    <p>at 5:30pm on Feb 14th</p>
+                    <p>Arrives Lisbon at 5:45am on Feb 15th</p>
+                    <p>TAP #1134 departs</p>
+                    <p>Lisbon at 7:20am<p>
+                    <p>Arrives Málaga at 9:35am on Feb 15th</p>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="p-4 rounded shadow-sm border-top border-4 border-info">
+                    <h3>Return</h3>
+                    <p>TAP #1135 departs</p>
+                    <p>Málaga at 10:20am</p>
+                    <p>Arrives Lisbon at 10:45am on Mar 15th</p>
+                    <p>TAP #261 departs</p>
+                    <p>Lisbon at 5:30pm</p>
+                    <p>Arrives Toronto (T1) at 10:15pm on Mar 15th</p>
+                     <p><a href="https://www.flytap.com" target="_blank" rel="noopener noreferrer">TAP Air Portugal</a></p>
+                   
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="p-4 rounded shadow-sm border-top border-4 border-info">
+                    <h3>Tourism Boards</h3>
+                     <p><a href="https://visitcostadelsol.com" target="_blank" rel="noopener noreferrer">Visit Costa Del Sol Tourism Board</a></p>
+                     <p><a href="https://spain.info" target="_blank" rel="noopener noreferrer">Visit Spain Tourism Board</a></p>
+                   
+                    <p></p>
+                    <p></p>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <footer class="text-center py-5 bg-light mt-5">
+        <p class="mb-0 text-muted">&copy; 2026 Costa Del Sol Travel | Designed by Bob Streeter</p>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
